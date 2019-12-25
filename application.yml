@@ -1,0 +1,18 @@
+﻿spring:
+  profiles:
+    active:
+    - test
+
+
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-yuezhiming-dev
+    
+---
+
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-yuezhiming-test
